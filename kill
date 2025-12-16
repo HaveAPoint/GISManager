@@ -1,0 +1,3 @@
+(standard input):crh        55703  0.0  0.4 219564 76460 ?        S    12:25   0:00 python manage.py runserver
+(standard input):crh       109212  1.3  0.5 299972 85904 ?        S    14:44   0:00 /home/crh/GISManager/venv/bin/python manage.py runserver
+(standard input):crh       109868  0.0  0.0   4096  1920 pts/3    S+   14:45   0:00 grep --color=auto runserver - 8000
