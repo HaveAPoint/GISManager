@@ -9,7 +9,7 @@ This module provides four core GIS components:
 4. Query System
 """
 
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict, Tuple, Optional, Any
 import json
 
 
@@ -96,7 +96,7 @@ class GISQuerySystem:
                         results.append(feature)
         return results
     
-    def query_by_attribute(self, key: str, value: any) -> List[Dict]:
+    def query_by_attribute(self, key: str, value: Any) -> List[Dict]:
         """Query features by attribute value"""
         results = []
         for feature in self.data_manager.get_features():
